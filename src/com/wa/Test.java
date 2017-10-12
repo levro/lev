@@ -21,7 +21,7 @@ public class Test {
 
         boolean finR = timeR && moneyR && energy;
 
-        System.out.println(finR);
+        System.out.println("Did you go to the shop? - " + finR);
     }
 
 }
