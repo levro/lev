@@ -9,15 +9,15 @@ public class Dec2bin {
 
         Scanner tm = new Scanner(System.in);
         System.out.print("Input number in decimal system: ");
-        int dec = tm.nextInt();
-        int rem;
-        String bin = "";
+        int decemal_num = tm.nextInt();
+        int remainder;
+        String binary_num = "";
 
-        while (dec >= 1){
-            rem = dec % 2;
-            dec = (dec - rem) / 2;
-            bin = Integer.toString(rem) + bin;
+        while (decemal_num >= 1){
+            remainder = decemal_num % 2;
+            decemal_num = (decemal_num - remainder) / 2;
+            binary_num = Integer.toString(remainder) + binary_num;
         }
-        System.out.println("In binary system it is: " + bin);
+        System.out.println("In binary system it is: " + binary_num);
     }
 }

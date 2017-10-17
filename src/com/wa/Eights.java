@@ -13,17 +13,17 @@ public class Eights {
 
         Scanner tm = new Scanner(System.in);
         System.out.print("Input number: ");
-        long nm = tm.nextLong();
-        int cnt = 0;
+        long num = tm.nextLong();
+        int counter = 0;
 
-        while (nm > 0){
-            if (nm % 10 == 8){
-                cnt++;
+        while (num > 0){
+            if (num % 10 == 8){
+                counter++;
             }
-            nm = nm - nm % 10;
-            nm = nm / 10;
+            num = num - num % 10;
+            num = num / 10;
         }
 
-        System.out.println(cnt);
+        System.out.println(counter);
     }
 }

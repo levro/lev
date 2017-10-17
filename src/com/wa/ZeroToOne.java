@@ -9,9 +9,9 @@ public class ZeroToOne {
 
         Scanner tm = new Scanner(System.in);
         System.out.println("Input decimal number");
-        double dc = tm.nextDouble();
+        double float_num = tm.nextDouble();
 
-        if (dc >= 0 && dc <= 1){
+        if (float_num >= 0 && float_num <= 1){
             System.out.println("Number is in the range from 0 to 1");
         } else {
             System.out.println("Number is NOT in the range from 0 to 1");

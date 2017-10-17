@@ -9,13 +9,13 @@ public class Fact {
 
         Scanner tm = new Scanner(System.in);
         System.out.print("Input number: ");
-        int nm = tm.nextInt();
-        int fac = 1;
+        int num = tm.nextInt();
+        int factorial = 1;
 
-        for (int i = 1; i <= nm; i++){
-            fac = fac * i;
+        for (int i = 1; i <= num; i++){
+            factorial = factorial * i;
         }
 
-        System.out.println(nm + "! = " + fac);
+        System.out.println(num + "! = " + factorial);
     }
 }

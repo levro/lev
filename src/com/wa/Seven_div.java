@@ -10,10 +10,10 @@ public class Seven_div {
         Scanner n = new Scanner(System.in);
 
         System.out.println("Input number");
-        int one = n.nextInt();
+        int num = n.nextInt();
 
-        if (one % 7 == 0){
-            System.out.println(one + " * 2 = " + one * 2);
+        if (num % 7 == 0){
+            System.out.println(num + " * 2 = " + num * 2);
         }
     }
 }

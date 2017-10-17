@@ -14,12 +14,12 @@ public class SumSub {
         int two = tm.nextInt();
 
         if (one > two){
-            int res = one - two;
-            System.out.println(one + " - " + two + " = " + res);
+            int result = one - two;
+            System.out.println(one + " - " + two + " = " + result);
         } else {
             if(one < two){
-                int res = one + two;
-                System.out.println(one + " + " + two + " = " + res);
+                int result = one + two;
+                System.out.println(one + " + " + two + " = " + result);
             } else {
                 System.out.println(one + " = " + two);
             }
