@@ -7,21 +7,18 @@ public class Test {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Input time");
-        int time = sc.nextInt();
-        System.out.println("Input money");
-        double money = sc.nextDouble();
-        System.out.println("Input name");
-        String human = sc.next();
-        System.out.println("Input energy");
-        boolean energy = sc.hasNextBoolean();
+        System.out.println("Input int");
+        int vr = sc.nextInt();
+        long vr_d;
+        vr_d = 123456789 * vr;
 
-        boolean timeR = time < 24 && time > 8;
-        boolean moneyR = money > 100;
+        System.out.println(vr);
+        System.out.println(vr_d);
 
-        boolean finR = timeR && moneyR && energy;
+        double a = 56.9898;
+        int b = (int)Math.round(a);
 
-        System.out.println("Did you go to the shop? - " + finR);
+        System.out.println(b);
     }
 
 }
