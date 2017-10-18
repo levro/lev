@@ -4,7 +4,7 @@ package com.wa;
 
 import java.util.Scanner;
 
-public class Fact {
+public class Factorial {
     public static void main(String[] args) {
 
         Scanner tm = new Scanner(System.in);
