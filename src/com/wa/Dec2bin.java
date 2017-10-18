@@ -16,7 +16,7 @@ public class Dec2bin {
         while (decemal_num >= 1){
             remainder = decemal_num % 2;
             decemal_num = (decemal_num - remainder) / 2;
-            binary_num = Integer.toString(remainder) + binary_num;
+            binary_num = remainder + binary_num;
         }
         System.out.println("In binary system it is: " + binary_num);
     }
