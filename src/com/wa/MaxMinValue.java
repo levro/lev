@@ -4,7 +4,7 @@ package com.wa;
 
 import java.util.Scanner;
 
-public class MaxMin {
+public class MaxMinValue {
     public static void main(String[] args) {
 
         Scanner n = new Scanner(System.in);

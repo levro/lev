@@ -12,12 +12,13 @@ public class Dec2bin {
         int decemal_num = tm.nextInt();
         int remainder;
         String binary_num = "";
+        System.out.print("In binary system " + decemal_num + " -> ");
 
         while (decemal_num >= 1){
             remainder = decemal_num % 2;
             decemal_num = (decemal_num - remainder) / 2;
             binary_num = remainder + binary_num;
         }
-        System.out.println("In binary system it is: " + binary_num);
+        System.out.println(binary_num);
     }
 }
